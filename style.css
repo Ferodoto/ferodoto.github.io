@@ -133,3 +133,21 @@ ul li::before {
   color: #FF006E; /* color de la estrella */
   margin-right: 8px; /* espacio entre la estrella y el texto */
 }
+.contenedor-listas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.lista {
+  text-align: left;
+}
+
+.linea-vertical {
+  border-left: 3px solid #FF006E; /* color de tu paleta */
+  height: 150px;
+}
+
+
