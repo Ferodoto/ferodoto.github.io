@@ -122,3 +122,14 @@ select {
     border-radius: 5px;
     box-sizing: border-box;
 } 
+
+ul {
+  list-style: none; /* quitamos el estilo por defecto */
+  padding-left: 0; /* opcional, elimina la sangría */
+}
+
+ul li::before {
+  content: "★"; /* aquí va la estrella */
+  color: #FF006E; /* color de la estrella */
+  margin-right: 8px; /* espacio entre la estrella y el texto */
+}
