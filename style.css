@@ -46,7 +46,8 @@ img {
 	border-radius: 20px;
 }
 table {
-  padding: 25px;
+  margin: 20px auto;
+  padding: 15px;
   border-spacing: 0px;
 }
 td, th {
@@ -61,4 +62,22 @@ th {
 td.freeTab {
   color: #FF006E;
   font-weight: bold;
+}
+
+button {
+	color: white;
+	background-color: #7A00B3;
+	border-radius: 20px;
+	border-color: white;
+	font-size: 20px;
+	width: 150px;
+	height: 60px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+button:hover {
+  background-color: #ff66cc;
 }
