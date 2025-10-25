@@ -150,4 +150,7 @@ ul li::before {
   height: 150px;
 }
 
-
+#mail {
+    color: white;
+    font-weight: bold;
+}
