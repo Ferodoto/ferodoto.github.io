@@ -81,3 +81,44 @@ button {
 button:hover {
   background-color: #ff66cc;
 }
+form {
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #FF006E;
+}
+fieldset {
+    border: 2px solid #FF006E;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+label {
+    color: #7A00B3;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #FF006E;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"], input[type="reset"]{
+    width: 45%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #FF006E;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #FF006E;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
